@@ -1,0 +1,38 @@
+Q :  Command to initialize git repository
+A :  git init
+
+Q :  Command to clone remote repository
+A :  git clone <url of repository >
+
+Q :  Command to stage all changes
+A :  git add -A
+
+Q :  Command to view state of working directory and staging area
+A :  git status
+
+Q :  Command to create new branch
+A :  git branch < branch name >  and git checkout -b <branch name >
+
+Q :  Command to change branch
+A :  git checkout < branch name >
+
+Q :  Command to clean staging area
+A :  for one file : git reset < file name > , and for all files : git reset head
+
+Q :  Command to get commits and changes from remote branch (It should not merge changes in current branch).
+A :  git fetch < remote name > < branch > e.g. remote name = origin , branch = main.  
+
+Q :  Command to get commits and changes from remote branch (It should merge changes in current branch).
+A :  git pull< remote name > < branch > e.g. remote name = origin , branch = main.  
+
+Q :  Command to cherry pick commit which SHA => 092018283103810930
+A :  git cherry-pick 092018283103810930
+
+Q :  Command to push branch
+A :  git push -u < remote name > < branch name > e.g. remote name = origin , branch = main. 
+
+Q :  Command to delete remote branch
+A :  for remote banch :- git push origin : < branch name >.
+
+Q :  Command to do iterative rebase
+A :  git rebase -i < branch name > e.g.
